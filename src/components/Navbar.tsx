@@ -17,6 +17,7 @@ const Navbar = () => {
             <div className="flex items-center space-x-8">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/about">About</NavLink>
+              <NavLink to="/user">User Page</NavLink>
               <NavLink to="/leaderboard">Leaderboard</NavLink>
               <NavLink to="/login">Login</NavLink>
               <Link to="/account" className="text-gray-300 hover:text-[#8B5CF6] transition-all duration-300 transform hover:scale-110">
